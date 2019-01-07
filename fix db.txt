@@ -1,0 +1,26 @@
+alright in characters db and characters table, add column "mg" as int after account
+
+in world DB in creature_template table, add column "rewmg" as int at the end
+
+in world DB in item_template  table, add column "reqmg" as int at the end
+in world DB in quest_template table, add column "rewardmg" and "requiredmg" as int at the end
+
+in auth DB in account table add column "viplevel" as int at the end
+
+in world DB in item_template table add these columns
+
+ upgradedE, ri1, ri2, ri3, ri4, ri5, ri6, qi1, qi2, qi3, qi4, qi5, qi6, chance, ureqmg, ureqgold
+
+ all as int at end
+
+
+
+npc_all_npc' does not have a script name assigned in database.
+Script named 'npc_MG_npc' does not have a script name assigned in database.
+Script named 'item_teleporter' does not have a script name assigned in database.
+Script named 'npc_Donate_npc' does not have a script name assigned in database.
+Script named 'item_upgrader' does not have a script name assigned in database.
+Script named 'npc_vote_npc
+
+
+SELECT entry, class, subclass, SoundOverrideSubclass, Material, displayid, inventoryType, Sheath FROM item_template WHERE entry > 60000;
